@@ -131,7 +131,7 @@ class ModelTrainer:
             
             save_object(
                 file_path=self.model_trainer_config.trained_model_file_path,
-                obj=model_package
+                obj=best_model
             )
             
             logging.info(f'\nPipeline saved to: {self.model_trainer_config.trained_model_file_path}')
