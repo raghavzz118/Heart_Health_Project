@@ -86,8 +86,6 @@ ipython_config.py
 __pycache__/
 *.pyc
 
-# Artifacts
-artifacts/
 
 # OS files
 .DS_Store
