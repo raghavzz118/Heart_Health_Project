@@ -19,7 +19,7 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-# check is it working properly    
+#check is it working properly    
 # if __name__=="__main__":
 
 #     try:
